@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-size:cover;
+    height: 100vh;
+    object-fit: none;
+    width: 100%;
+    background-repeat:no-repeat;
+    background-image: url(image.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.75)rgba(0,0,0,0.75));
+}
+.signin{
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+.signin h1{
+    font-family:inherit;
+    font-size: 40px;
+    padding-bottom: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 40px 0;
+    padding: 0;
+}
+.signin p{
+    font-family:monospace;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 15px 0;
+    text-decoration:none;
+    text-transform: uppercase;
+}
+.signin input{
+    font-size: 15px;
+    width: 100%;
+    padding: 15px 10px;
+    border: red;
+    border-radius: 10px;
+    outline: none;
+
+}
+.signin button{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 20px;
+    padding: 10px 20px;
+    width: 30%;
+  border-color: black;
+    border-radius: 25px;
+}
+.signupbtn{
+    position: relative;
+    left:225px;
+    bottom: 80px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 25px;
+}
+.fp p{
+font-size: 15px;
+    text-transform: lowercase;
+    font-family: sans-serif;
+}
+button{
+  width:200px;
+  background: transparent;
+  color: #fff;
+  cursor:pointer;
+  position: relative;
+  overflow: hidden;
+}
+span{
+  background:black;
+  height: 100%;
+  width: 0;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+button:hover span{
+  width: 100%;
+}
+button:hover{
+  border:none;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+#FP{
+  color: #000;
+}
